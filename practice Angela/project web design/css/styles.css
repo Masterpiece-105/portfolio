@@ -1,0 +1,120 @@
+* body{
+    margin: 20px;
+    padding: 0;
+    
+}
+
+.nav-list a{
+    margin-top: 20px;
+    margin: 40px;
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    font-family:  Biotif-Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: normal;
+
+}
+.nav-list a:hover{
+    color:#F190B7;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    transition: 0.2s ;
+
+}
+.dropdown{
+    float: left;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background: #232320;
+    border-radius: 20px;
+
+    z-index: 1;
+    outline: none;
+} 
+.dropdown-content a{
+    color: white;
+}
+
+/* .dropdown-content{
+     list-style-type: none; 
+    margin: 0;
+    padding: 1.5em 2em 2em;
+    background: #232320;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 6%), 0 19px 20px rgb(0 0 0 / 15%);
+    
+    border-radius: 20px;
+    min-width: 15em;
+} */
+.dropbtn{
+    border: none;
+    background-color: inherit;
+}
+.dropdown-content a{
+    float: none;
+    display: block;
+    padding: 1px 3px;
+    background-color: #232320;
+    text-decoration: underline;
+    
+}
+
+.dropdown-content a:hover {
+    opacity: 0.8;
+    color:#F190B7;
+    transition: 0.2s;
+    text-decoration: underline;
+    text-decoration-thickness:5px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.info{
+    font-family: cursive;
+    font-size: 1em;
+    margin-top: 10rem;
+    margin-left: 4rem;
+    font-weight: 500;
+}
+.profile-img{
+    float: right;
+    width:50%;
+    height:50rem;
+    border: 1px solid black;
+    border-radius: 2rem ;
+    /* margin-right: 4rem; */
+    position: relative;
+    margin: 0 auto;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* .nav-list .social-media{
+    margin: 17rem;
+} */
+
+
+.photoSection{
+    margin: 0;
+    background-color: antiquewhite;
+}
+.SeanImages img{
+    width: auto;
+    height: 650px;
+    
+}
+.SeanImages1 img{
+    width: 60rem;
+    margin: 20px;
+    height: auto;
+    background-color: #737da7;;
+
+}
+
+
